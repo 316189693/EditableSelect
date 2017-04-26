@@ -5,6 +5,7 @@ This quick JS file makes i possible to edit a select inputs.
 
 To make it work use this html:
 
+```html
 <div class="form-group">
     <label class="control-label col-sm-4"> 'The name you want' </label>
         <div id="select-editable" class="col-sm-8">
@@ -16,11 +17,12 @@ To make it work use this html:
             <input type="text" id="text" class=" form-control" placeholder="Add new" value="" />
         </div>
 </div>
+```
 
 To overlap the text input use this CSS:
 
 
-<style>
+```CSS
         #select-editable input {
             position:absolute;
             top:1px;
@@ -31,4 +33,4 @@ To overlap the text input use this CSS:
         #select-editable select:focus, .select-editable input:focus {
             outline:none;
         }
-    </style>
+```

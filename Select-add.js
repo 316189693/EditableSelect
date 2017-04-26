@@ -1,4 +1,4 @@
-/*$(document).ready(function(){
+$(document).ready(function(){
  var previous = "null";
  var hPrevious = "null";
 
@@ -64,4 +64,4 @@
  }
  });
 
- });*/
+ });
